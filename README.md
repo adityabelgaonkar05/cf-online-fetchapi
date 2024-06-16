@@ -2,6 +2,8 @@
 Fetches Codeforces Test Cases from provided link
 POST your codeforces problem link on ['https://cf-online-fetchapi.onrender.com/test-cases'](https://cf-online-fetchapi.onrender.com/test-cases) 
 
+Example use-case =>
+
 ```typescript
 const [testCases, setTestCases] = useState<Array<[string, string]> | null>(null);
 
