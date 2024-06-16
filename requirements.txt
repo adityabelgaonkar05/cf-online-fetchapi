@@ -12,11 +12,13 @@ Flask==3.0.3
 future==1.0.0
 gevent==24.2.1
 greenlet==3.0.3
+gunicorn==22.0.0
 idna==3.7
 itsdangerous==2.2.0
 Jinja2==3.1.4
 jsonify==0.5
 MarkupSafe==2.1.5
+packaging==24.1
 pycparser==2.22
 PySocks==1.7.1
 requests==2.32.3
