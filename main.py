@@ -34,6 +34,4 @@ def test_cases():
     return jsonify(test_cases)
 
 if __name__ == "__main__":
-    app.run(debug=True)
-else:
-    application = app 
+    app.run(port=5000, debug=True)
