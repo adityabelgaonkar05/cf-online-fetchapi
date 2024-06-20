@@ -17,7 +17,7 @@ def get_test_cases(url):
         return {"error": "Test cases not found"}
     
     input_data = input_section.pre.get_text('\n')
-    output_data = output_section.pre.get_text()
+    output_data = output_section.pre.get_text('\n')
     
     return {
         "input": input_data.strip(),
